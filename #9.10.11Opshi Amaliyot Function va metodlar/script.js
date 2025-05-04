@@ -26,8 +26,8 @@ console.log(isMarried || isChild)
 function startApp() {
     numberOfSeries +prompt('Nechata serial koripsiz?', '')
 
-    while (numberOfSeries == '' || numberOfSeries === null || isNaN(numberOfSeries))
-    {      numberOfSeries  +prompt('Nechata serial koripsiz?', '')
+    while (numberOfSeries === '' || numberOfSeries === null || isNaN(numberOfSeries)){
+          numberOfSeries +prompt('Nechata serial koripsiz?', '')
     }
 }
 
