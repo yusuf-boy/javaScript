@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    background-color: #222;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 4px solid white;
+}
+
+.car {
+    width: 900px;
+    position: absolute;
+    height: 100px;
+    left: 0;
+}
+.car img {
+    object-fit: cover;
+    width: 350px;
+    height: 110px;
+}
+
+.btn {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.btn button {
+    background-color: green;
+    color: white;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}

@@ -40,8 +40,8 @@ console.log(n)
 //     console.log(`cars ${cars[i]}`)
 // }
 //
-// for(let car of cars){
-//     console.log(`car ${car}`)
+// for(let img of cars){
+//     console.log(`img ${img}`)
 // }
 
 // bu bizda medid deyiladi

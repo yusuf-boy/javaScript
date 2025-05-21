@@ -29,6 +29,7 @@ const seriesDB = {
         while (seriesDB.count === '' || seriesDB.count === null || isNaN(seriesDB.count)){
             seriesDB.count = +prompt('Nechata serial koripsiz?', '')
         }
+        console.log(this.start)
     },
     setSeries: function(){
         for (let i = 0; i < 2; i++) {
@@ -40,6 +41,7 @@ const seriesDB = {
             } else {
                 i--
             }
+            console.log(this.setSeries)
         }
     },
     detectingLeval: function(){
@@ -57,6 +59,7 @@ const seriesDB = {
         } else {
             seriesDB.private = true
         }
+        console.log(this.visibleDB)
     },
     showDB: function(){
         if (!seriesDB.private) {

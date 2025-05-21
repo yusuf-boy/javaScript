@@ -49,22 +49,22 @@
 //     console.log(number);
 // }
 
-// let  number = 1
-// while(number <= 5) {
-//     console.log(number);
-//     number++
-// }
-//
-// do {
-//     console.log(number);
-//     number++;
-// } while (number <= 5);
+let  number = 1
+while(number <= 5) {
+    console.log(number);
+    number++
+}
+
+do {
+    console.log(number);
+    number++;
+} while (number <= 5);
 
 
 
 // Shartli operator
 // Ternorniy operator => OSON VAYRATI BITTA QATORDA
 
-const age = 18
-
-age < 18 ? console.log('No access') : console.log('Access')
+// const age = 18
+//
+// age <18 ? console.log('No access') : console.log('Access')
